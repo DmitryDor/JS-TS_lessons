@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {splitIntoWords} from "./01-hello-tests/01";
+import {sum} from "./03_function/03_function";
+
+
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
