@@ -3,7 +3,7 @@ import {
     demolishHousesOnTheStreet,
     getBuilding,
     getHousesOfTheStreet,
-    getStreetsTitleOfGovermentsBuildings
+
 } from "./04_filter2";
 
 export let city: CityType
@@ -87,17 +87,7 @@ test('Houses should be destroyed', () => {
 
 })
 
-test.skip('List to streets titles of goverments buildings', () => {
 
-    let streets = getStreetsTitleOfGovermentsBuildings(
-        city.govermentBuilding
-    )
-
-    expect(streets.length).toBe(2)
-    expect(streets[0]).toBe('Central str')
-    expect(streets[1]).toBe('South str')
-
-})
 
 test.skip('List to streets titles of houses', () => {
 
