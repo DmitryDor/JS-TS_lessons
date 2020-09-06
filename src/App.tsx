@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import {User} from "./06_callback/06_callback";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
             <ul>
                 {liElements}
             </ul>
+            <User />
         </div>
     );
 }
